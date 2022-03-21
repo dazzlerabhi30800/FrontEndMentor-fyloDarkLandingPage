@@ -240,7 +240,7 @@ body {
 	padding : 1rem 2rem;
 }
 .header_img__wrapper {
-	position : relative;+
+	position : relative;
 	width : 350px;
 	height : 260px;
 	display : flex;
@@ -429,7 +429,7 @@ body {
 	align-items : left;
 }
 .input__wrapper input {
-	backround : #fff;
+	background : #fff;
 	padding : .3rem .4rem;
 	width : 300px;
 	border-radius : 10px;
@@ -668,15 +668,17 @@ body {
 	
 	.description__wrapper {
 		position : absolute;
-		transform : translateY(-40px);
+		transform : translateY(-80px);
 		z-index : 44;
-		padding : 1rem 14rem;
+		padding : 1rem 20rem;
 		display : flex;
 		flex-direction : column;
 		justify-content : center;
 		align-items : center;
 		text-align : center;
 		gap : 1rem;
+		left : 8rem;
+		right : 4rem;
 	}
 
 	/*Section third*/
@@ -716,11 +718,11 @@ body {
 	.header__img img {
 		position : absolute;
 		width : 100%;
-		heigh : 100%;
+		height : 100%;
 		object-fit : cover;
 	}
 	.about__wrapper {
-		dispaly : flex;
+		display : flex;
 		flex-direction : column;
 		justify-content : center;
 		align-items : center;
@@ -749,7 +751,7 @@ body {
 		padding : 1rem 2rem;
 	}
 	.header_img__wrapper {
-		position : relative;+
+		position : relative;
 		width : 450px;
 		height : 300px;
 		display : flex;
@@ -835,6 +837,8 @@ body {
 		padding : 1rem 2rem;
 		border-radius : 3px;
 		gap : 2rem;
+		width : 500px;
+		height : 180px;
 
 	}
 	.testimonial__wrapper {
@@ -907,7 +911,7 @@ body {
 		background : var(--Dark-Blue3);
 		width : 60%;
 		position : relative;
-		left : 210px;
+		left : 20%;
 		padding : 1rem 1rem;
 		gap : 1rem;
 		text-align : center;
@@ -936,7 +940,7 @@ body {
 		align-items : left;
 }
 	.input__wrapper input {
-		backround : #fff;
+		background : #fff;
 		padding : .3rem .4rem;
 		width : 300px;
 		border-radius : 10px;
@@ -1054,7 +1058,7 @@ body {
 	.link__wrapper {
 		display : flex;
 		flex-direction : row;
-		gap : 2rem;
+		gap : 10rem;
 		margin-left : 10rem;
 	}	
 	.first__link__wrapper {
@@ -1072,7 +1076,7 @@ body {
 		color : white;
 		transition : all .1s ease-in;
 		cursor : pointer;
-		margin : 
+		margin : 0px;
 	}
 	.first__link__wrapper ul li:hover {
 		color : var(--Cyan);
@@ -1080,6 +1084,7 @@ body {
 
 	.second__link__wrapper {
 		display : flex;
+		margin-left : 3rem;
 	}
 	.second__link__wrapper ul {
 		display : flex;
