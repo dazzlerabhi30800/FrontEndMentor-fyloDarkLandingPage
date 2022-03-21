@@ -23,12 +23,14 @@ button.addEventListener("click", () => {
   if (emailPattern.test(inputText)) {
     setTimeout(function() {
       error.innerText = "Your email has been verified";
+      error.style.color = "#14ff53"
       error.classList.add("show");
     }, 50);
     setTimeout(function() { error.classList.remove("show"); }, 4000);
   } else {
     setTimeout(function() {
       error.innerText = "Please enter valid email";
+      error.style.color = "red";
       error.classList.add("show");
     }, 50);
     setTimeout(function() { error.classList.remove("show"); }, 4000);
