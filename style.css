@@ -7,24 +7,26 @@
 }
 
 
+
+
 :root {
---Dark-Blue : rgb(28, 36, 49);
---Dark-Blue1 : rgb(24, 31, 42);
---Dark-Blue2 : rgb(11, 21, 35);
---Dark-Blue3 :rgb(32, 42, 60);
+	--Dark-Blue : rgb(28, 36, 49);
+	--Dark-Blue1 : rgb(24, 31, 42);
+	--Dark-Blue2 : rgb(11, 21, 35);
+	--Dark-Blue3 :rgb(32, 42, 60);
 
-/*### Accent*/
+	/*### Accent*/
 
---Cyan : rgb(101, 226, 217);
---Blue: rgb(51, 158, 204);
---Light-Red: rgb(255, 66, 66);
+	--Cyan : rgb(101, 226, 217);
+	--Blue: rgb(51, 158, 204);
+	--Light-Red: rgb(255, 66, 66);
 
-/*### Neutral*/
+	/*### Neutral*/
 
---White: rgb(255, 255, 255);
+	--White: rgb(255, 255, 255);
 
---font-raleway : 'Raleway', sans-serif;
---font-openSans : 'Open Sans', sans-serif;
+	--font-raleway : 'Raleway', sans-serif;
+	--font-openSans : 'Open Sans', sans-serif;
 
 }
 
@@ -132,6 +134,7 @@ body {
 	align-items : center;
 	text-align : center;
 	gap : 1rem;
+	/*width : auto;*/
 }
 .heading {
 	font-size : 2rem;
@@ -659,7 +662,22 @@ body {
 
 
 
-@media screen and (min-width : 1000px){
+@media (min-width : 1000px){
+
+	html {
+		display : flex;
+		overflow-x : hidden;
+	}
+
+	body {
+		width : 100vw;
+		display : flex;
+		overflow-x : hidden;
+	}
+	.container {
+		width : 100vw;
+		overflow-x : hidden;
+	}
 	.navbar {
 		display : flex;
 		position : relative;
@@ -670,7 +688,7 @@ body {
 		position : absolute;
 		transform : translateY(-80px);
 		z-index : 44;
-		padding : 1rem 20rem;
+		padding : 1rem 10rem;
 		display : flex;
 		flex-direction : column;
 		justify-content : center;
@@ -679,8 +697,12 @@ body {
 		gap : 1rem;
 		left : 8rem;
 		right : 4rem;
+	
 	}
-
+	.heading {
+		font-size : 2.5rem;
+		width : 700px;
+	}
 	/*Section third*/
 	
 	.section__third {
@@ -738,6 +760,7 @@ body {
 		font-size : .9rem;
 		padding : 0 2rem;
 		margin-top : 1rem;
+		padding : 0rem 5rem;
 	}
 
 	/*Section Four*/
@@ -1106,9 +1129,6 @@ body {
 	
 
 }
-
-
-
 
 
 
